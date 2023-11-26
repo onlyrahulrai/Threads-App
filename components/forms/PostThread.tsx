@@ -10,7 +10,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from "@hookform/resolvers/zod"
 import { usePathname, useRouter } from "next/navigation";
 import { ThreadValidation } from "@/lib/validations/thread";
-import { createThread } from "@/lib/actions/thread.action";
+import { createThread } from "@/lib/actions/thread.actions";
 
 interface Props {
     userId: string

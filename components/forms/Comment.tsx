@@ -15,7 +15,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from "@hookform/resolvers/zod"
 import { usePathname, useRouter } from "next/navigation";
 import { CommentValidation } from "@/lib/validations/thread";
-import { addCommentToThread, createThread } from "@/lib/actions/thread.action";
+import { addCommentToThread, createThread } from "@/lib/actions/thread.actions";
 import Image from 'next/image';
 
 interface Props {
